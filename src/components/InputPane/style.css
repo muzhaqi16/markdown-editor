@@ -1,0 +1,5 @@
+#editor {
+    overflow-y: scroll;
+    height: 100vh;
+    resize: none;
+}
