@@ -1,13 +1,18 @@
-import React from 'react';
-import marked from 'marked';
+import React, { useState, useEffect } from 'react';
+import InputPane from './components/InputPane';
+import PreviewPane from './components/PreviewPane';
+
 function App() {
-  const getMarkdownText = () => {
-    var rawMarkup = marked('This is _Markdown_.', { sanitize: true });
-    return { __html: rawMarkup };
-  }
+
+  const [input, setInput] = useState('This is _Markdown_.')
   return (
-    <div dangerouslySetInnerHTML={getMarkdownText()} />
-  );
+    <div className="container">
+      <div className="columns is-mobile is-centered">
+        <InputPane onChange={setInput} />
+        <PreviewPane markdown={input} />
+      </div>
+    </div>
+  )
 }
 
 export default App;
