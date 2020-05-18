@@ -1,5 +1,17 @@
 # Markdown Editor
 
+Marked.js ACE
+
+## Features
+
+* Live preview (where your edits in the input area automatically show up in the preview panel)
+* Syntax highlighting for input area
+* Selectable themes for input area
+* Selectable themes for preview panel
+* Print to PDF
+* Locally installed (using Electron, for example)
+* Responsive design 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
