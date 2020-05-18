@@ -54,9 +54,9 @@ And here. | Okay. | I think we get it.
 
   const [input, setInput] = useState(placeholder)
   return (<>
+    <NavBar />
     <div className="container">
-      <NavBar />
-      <div className="columns is-mobile is-centered">
+      <div className="columns is-full-mobile is-centered">
         <InputPane onChange={setInput} default={input} />
         <PreviewPane markdown={input} />
       </div>
