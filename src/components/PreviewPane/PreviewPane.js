@@ -8,14 +8,8 @@ renderer.link = function (href, title, text) {
 }
 //this is necesarry to add the appropriate bulma heading classes
 renderer.heading = function (text, level) {
-    console.log(text, level)
-    const escapedText = text.toLowerCase().replace(/[^\w]+/g, '-');
-
     return `
             <h${level} class="title is-${level}">
-              <a name="${escapedText}" class="anchor" href="#${escapedText}">
-                <span class="header-link"></span>
-              </a>
               ${text}
             </h${level}>`;
 };
