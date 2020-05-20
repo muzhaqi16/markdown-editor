@@ -4,6 +4,26 @@
 
  [Live Demo](https://react-markdown-editor.now.sh/)
 
+**Badges**
+
+[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+**Screenshot**
+
+![Home page screenshot](screenshot.png)
+
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [Team](#team)
+- [License](#license)
+
+---
+
 ## Features
 
 * Live preview (your edits in the input area automatically shown up in the preview panel)
